@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "video11": "/components/video11/video11",
+    "price-detail": "/components/priceDetail/priceDetail",
+    "info-detail": "/components/infoDetail/infoDetail",
+    "rank": "/components/rank/rank",
+    "comment": "/components/comment/comment",
+    "ask": "/components/ask/ask",
+    "recom1": "/components/recom1/recom1",
+    "dian": "/components/dian/dian",
+    "questions": "/components/questions/questions"
+  }
+}

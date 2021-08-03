@@ -1,0 +1,1 @@
+<view class=" box flex ai-c flex data-v-c4873da8"><view class="left data-v-c4873da8"><slot name="left"></slot></view><view class="middle data-v-c4873da8"><slot name="middle"></slot></view><view class="right data-v-c4873da8"><slot name="right"></slot></view></view>

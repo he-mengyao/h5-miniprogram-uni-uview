@@ -1,0 +1,147 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [{
+		"path": "pages/home/home",
+		"style": {
+			"navigationBarTitleText":"首页",
+			"navigationStyle":"custom"
+		}
+	},
+	{
+		"path": "pages/category/category",
+		"style": {
+			"navigationBarTitleText":"分类",
+			"navigationStyle":"custom"
+		}
+	},
+	{
+		"path": "pages/life/life",
+		"style": {
+			"navigationBarTitleText":"生活",
+			"navigationStyle":"custom"
+		}
+	},{
+		"path": "pages/shopcar/shopcar",
+		"style": {
+			"navigationBarTitleText":"购物车",
+			"navigationStyle":"custom"
+		}
+	},
+	{
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText":"我的",
+			"navigationStyle":"custom"
+		}
+	},	{
+		"path": "pages/search/search",
+		"style": {
+			"navigationBarTitleText":"搜索",
+			"navigationStyle":"custom"
+		}
+	},{
+		"path": "pages/detail/detail",
+		"style": {
+			"navigationBarTitleText":"文章详情",
+			"navigationStyle":"custom"
+		}
+	},{
+		"path": "pages/productDetail/productDetail",
+		"style": {
+			"navigationBarTitleText":"商品详情",
+			"navigationStyle":"custom"
+		}
+	},{
+		"path": "pages/commentDeatil/commentDetail",
+		"style": {
+			"navigationBarTitleText":"评价详情",
+			"navigationStyle":"custom"
+		}
+	},
+	{
+		"path": "pages/askDetail/askDetail",
+		"style": {
+			"navigationBarTitleText":"问答详情",
+			"navigationStyle":"custom"
+		}
+	},
+	{
+		"path": "pages/searchList/searchList",
+		"style": {
+			"navigationBarTitleText":"商品列表",
+			"navigationStyle":"custom"
+		}
+	},
+	{
+		"path": "pages/coupon/coupon",
+		"style": {
+			"navigationBarTitleText":"优惠券",
+			"navigationStyle":"custom"
+		}
+	},
+	{
+		"path": "pages/browse/browse",
+		"style": {
+			"navigationBarTitleText":"我的",
+			"navigationStyle":"custom"
+		}
+	},
+	{
+		"path": "pages/order/order",
+		"style": {
+			"navigationBarTitleText":"我的订单",
+			"navigationStyle":"custom"
+		}
+	},
+	{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText":"登录",
+			"navigationStyle":"custom"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "有品",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+			"color":"#666666",
+			"selectedColor": "#D8A26D",
+			"list":[{
+				"text": "首页",
+				"iconPath": "static/icon/tabbar/icon_tab_main.png",
+				"selectedIconPath": "static/icon/tabbar/icon_tab_main_sel.png",
+				"pagePath": "pages/home/home"
+			},
+			{
+				"text": "分类",
+				"iconPath": "static/icon/tabbar/icon_tab_classify.png",
+				"selectedIconPath": "static/icon/tabbar/icon_tab_classify_sel.png",
+				"pagePath": "pages/category/category"
+			},
+			{
+				"text": "生活",
+				"iconPath": "static/icon/tabbar/icon_tab_pinwei.png",
+				"selectedIconPath": "static/icon/tabbar/icon_tab_pinwei_sel.png",
+				"pagePath": "pages/life/life"
+			},
+			{
+				"text": "购物车",
+				"iconPath": "static/icon/tabbar/icon_tab_cart.png",
+				"selectedIconPath": "static/icon/tabbar/icon_tab_cart_sel.png",
+				"pagePath": "pages/shopcar/shopcar"
+			},
+			{
+				"text": "我的",
+				"iconPath": "static/icon/tabbar/icon_tab_profile.png",
+				"selectedIconPath": "static/icon/tabbar/icon_tab_profile_sel.png",
+				"pagePath": "pages/my/my"
+			}
+		]
+	}
+}

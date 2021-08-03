@@ -1,0 +1,1 @@
+<view class="flex col ai-c brand data-v-6f04ad94"><image class="img1 data-v-6f04ad94" src="{{brandUrl[1].pic_url}}" mode data-event-opts="{{[['tap',[['go',['$0'],['brandUrl.__$n1.pic_jump_url']]]]]}}" bindtap="__e"></image><image class="img2 data-v-6f04ad94" src="{{brandUrl[0].image}}" mode></image></view>

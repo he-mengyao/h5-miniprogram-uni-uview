@@ -1,0 +1,1 @@
+<view class="head data-v-8ad7aaf8" style="{{'background-color:'+(color)+';'}}"><view class="shortcut data-v-8ad7aaf8"></view><view class="header flex ai-c w-100 flex-c pr data-v-8ad7aaf8"><view class="left pa data-v-8ad7aaf8"><slot name="left"></slot></view><view class="middle data-v-8ad7aaf8"><slot name="middle"></slot></view></view></view>

@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-notice-bar": "/node-modules/uview-ui/components/u-notice-bar/u-notice-bar",
+    "carousel": "/components/carousel/carousel",
+    "categ": "/components/categ/categ",
+    "brand": "/components/brand/brand",
+    "outdoor": "/components/outdoor/outdoor",
+    "micro": "/components/micro/micro",
+    "hots": "/components/hots/hots",
+    "spike": "/components/spike/spike",
+    "sale": "/components/sale/sale",
+    "recom": "/components/recom/recom"
+  }
+}

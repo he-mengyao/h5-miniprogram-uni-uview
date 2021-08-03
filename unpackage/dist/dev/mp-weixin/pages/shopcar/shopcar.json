@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "购物车",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-checkbox-group": "/node-modules/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/node-modules/uview-ui/components/u-checkbox/u-checkbox",
+    "u-number-box": "/node-modules/uview-ui/components/u-number-box/u-number-box",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "weini-recom": "/components/weiniRecom/weiniRecom",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal"
+  }
+}

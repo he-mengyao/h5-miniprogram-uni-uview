@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/category/category",
+    "pages/life/life",
+    "pages/shopcar/shopcar",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/productDetail/productDetail",
+    "pages/commentDeatil/commentDetail",
+    "pages/askDetail/askDetail",
+    "pages/searchList/searchList",
+    "pages/coupon/coupon",
+    "pages/browse/browse",
+    "pages/order/order",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "有品",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#D8A26D",
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "static/icon/tabbar/icon_tab_main.png",
+        "selectedIconPath": "static/icon/tabbar/icon_tab_main_sel.png",
+        "pagePath": "pages/home/home"
+      },
+      {
+        "text": "分类",
+        "iconPath": "static/icon/tabbar/icon_tab_classify.png",
+        "selectedIconPath": "static/icon/tabbar/icon_tab_classify_sel.png",
+        "pagePath": "pages/category/category"
+      },
+      {
+        "text": "生活",
+        "iconPath": "static/icon/tabbar/icon_tab_pinwei.png",
+        "selectedIconPath": "static/icon/tabbar/icon_tab_pinwei_sel.png",
+        "pagePath": "pages/life/life"
+      },
+      {
+        "text": "购物车",
+        "iconPath": "static/icon/tabbar/icon_tab_cart.png",
+        "selectedIconPath": "static/icon/tabbar/icon_tab_cart_sel.png",
+        "pagePath": "pages/shopcar/shopcar"
+      },
+      {
+        "text": "我的",
+        "iconPath": "static/icon/tabbar/icon_tab_profile.png",
+        "selectedIconPath": "static/icon/tabbar/icon_tab_profile_sel.png",
+        "pagePath": "pages/my/my"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

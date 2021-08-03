@@ -1,0 +1,373 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-c {
+    justify-content: center;
+}
+
+.flex-b {
+    justify-content: space-between;
+}
+
+.flex-a {
+    justify-content: space-around;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.ai-b {
+    align-items: flex-end;
+}
+
+// flex换行
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+// 水平居中
+.ta-c {
+    text-align: center;
+}
+
+// 字体加粗
+.fw {
+    font-weight: 700;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.pf {
+    position: fixed;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.f18 {
+    font-size: 18px;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.f24 {
+    font-size: 24px;
+}
+
+.f26 {
+    font-size: 26px;
+}
+
+.f28 {
+    font-size: 28px;
+}
+
+.f30 {
+    font-size: 30px;
+}
+
+.b0 {
+    border: 0;
+}
+
+.br {
+    border-radius: 100%;
+}
+
+.border-b {
+    border-bottom: 1px solid #eeeeee;
+}
+
+input {
+    outline: none;
+}
+
+img {
+    border: 0;
+}
+
+// 多出部分，省略号显示
+.text_overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.none {
+    display: none;
+}
+
+// 圆角
+.br {
+    border-radius: 100%;
+}
+
+// 字体白色
+.cw {
+    color: #fff;
+}
+
+.cb {
+    color: #000000;
+}
+
+.shadow {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+}
+
+html,
+body {
+    font-size: 12px;
+    height: 100%;
+    // overflow: hidden;
+    // background-color: #eeeeee;
+}
+
+// 让表格边框重合
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+// 显示删除线
+.del {
+    text-decoration: line-through;
+}
+
+// 鼠标经过，显示下划线
+.a:hover {
+    text-decoration: underline;
+}
+
+// 隐藏
+.hide {
+    display: none;
+}
+
+// 显示
+.block {
+    display: block;
+}
+
+// 鼠标样式为小手
+.cursor {
+    cursor: pointer;
+}
+
+// 外层盒子，设置display
+.box-center {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// 遮罩层
+.mask-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+// 垂直水平居中
+.pos-center {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// 定义文字行数，多余省略号
+.ellipsis {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+// 单独一行，超出省略号
+.lue1 {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.bg-eee {
+    background-color: #eeeeee !important;
+}
+
+.bg-333 {
+    background-color: #333333;
+}
+
+.bg-f5 {
+    background-color: #f5f5f5;
+}
+
+.bg-fff {
+    background-color: #fff;
+}
+
+.color-333 {
+    color: #333;
+}
+
+.color-eee {
+    color: #eeeeee;
+}
+.color-a0a0 {
+	color: #a0a0a0;
+}
+.shadow_333 {
+    box-shadow: 0px 2px 3px #333;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.fs-i {
+    font-style: italic;
+}
+.co-red {
+	color: #e5665e;
+}
+.mr-top20 {
+	margin-top: 20rpx;
+}
+.boder-r10 {
+	border-radius: 10rpx;
+}
+.scroll_box{
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  }
+.scroll_box scroll-view{
+    width: auto;
+    overflow:hidden;
+}
+.pd-20 {
+	padding: 20rpx;
+}
+.color-red {
+	color: red;
+}
+.color-brown {
+	color: #c29450;
+}
+.active {
+	color: red;
+}
+.mr-l20 {
+	margin-left: 20rpx;
+}
+// 顶部占位
+.div-95 {
+	height: 95rpx;
+}
+.div-145 {
+	height: 145rpx;
+}
+.color-999 {
+	color: #999999;
+}
+.img-100 {
+	width: 155rpx;
+	height: 155rpx;
+	margin-right: 10rpx;
+	/* #ifdef MP-WEIXIN */
+	width: 160rpx;
+	height: 160rpx;
+	/* #endif */
+}
+.color-zong {
+	color: #826e58;
+}
+// 点赞之类大小
+.icon {
+			width: 40rpx;
+			height: 40rpx;
+}
+.mr-r20 {
+	margin-right: 20rpx;
+}
+.icon1 {
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 100%;
+}
+.mr-tb10 {
+	margin: 10rpx 0;
+}
+.bg-red {
+	background-color: #b8312a;
+}
+.bg-purple {
+	background-color: #f8f7fa;
+}
+.avtor {
+		height: 60rpx;
+		width: 60rpx;
+		border-radius: 100%;
+}
+.ask-img {
+	height: 40rpx;
+	width: 40rpx;
+}
+.img-180 {
+	width: 180rpx;
+	height: 180rpx;
+}

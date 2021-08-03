@@ -1,0 +1,84 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "text=%E6%99%BE%E8%A1%A3%E6%9E%B6",
+          "scene": null
+        },
+        {
+          "name": "pages/category/category",
+          "pathName": "pages/category/category",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/life/life",
+          "pathName": "pages/life/life",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/detail/detail",
+          "pathName": "pages/detail/detail",
+          "query": "id=64198",
+          "scene": null
+        },
+        {
+          "name": "pages/shopcar/shopcar",
+          "pathName": "pages/shopcar/shopcar",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/productDetail/productDetail",
+          "pathName": "pages/productDetail/productDetail",
+          "query": "id=121510",
+          "scene": null
+        },
+        {
+          "name": "pages/productDetail/productDetail",
+          "pathName": "pages/productDetail/productDetail",
+          "query": "id=136789",
+          "scene": null
+        },
+        {
+          "name": "pages/commentDeatil/commentDetail",
+          "pathName": "pages/commentDeatil/commentDetail",
+          "query": "gid=",
+          "scene": null
+        },
+        {
+          "name": "pages/productDetail/productDetail",
+          "pathName": "pages/productDetail/productDetail",
+          "query": "id=126001",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "text=%E5%A4%9F%E6%B8%85%E5%87%8999%E5%85%83%E6%8A%A2%E9%A3%8E%E6%89%87",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
